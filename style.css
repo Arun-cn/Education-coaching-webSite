@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 1000vh;
 }
 .navbar{
     display: flex;
@@ -40,7 +41,8 @@ body{
     
     list-style-type: none;
     width:60%;
-   
+    flex-shrink: 2;
+    margin-left: 60px;
    
 }
 .navlinks a{
@@ -50,8 +52,9 @@ body{
 .socialinks{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-shrink: 2;
    
     
  
@@ -59,4 +62,12 @@ body{
 .socialinks a{
     margin-left: 40px;
 }
-
+.sidebar{
+    width:100%;
+    height:40px;
+    background-color: brown;
+}
+.carousel-width{
+    height: 400px;
+    width: 100%;
+}
